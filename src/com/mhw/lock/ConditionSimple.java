@@ -13,6 +13,8 @@ import java.util.concurrent.locks.ReentrantLock;
  * <p>
  * 1. await() 必须要获得锁  否则抛出 IllegalMonitorStateException ，因为await方法会release锁，release过程中会校验当前线程是否获得了锁
  *
+ * refer: https://www.jianshu.com/p/28387056eeb4
+ *
  * @author xushao@guoxiaomei.com
  * @version ConditionSimple.java, 2018/2/7 11:44
  */
